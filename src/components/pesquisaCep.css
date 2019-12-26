@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+.pesquisa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pesquisa-cep, .pesquisa-local, .resultado{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.btn-pesquisa{
+    height: 50px;
+    border-radius: 15px;
+    background-color: #e33e2b;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.pesquisa-label{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #3e3e3e;
+}
