@@ -1,20 +1,13 @@
 .cep-header{
-    background-color: #777;
+    background-color: #05a7d8;
     box-shadow: 2px 2px 5px #444;
-}
-
-.logo-settings{
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 10vh;
-}
-.logo-settings img{
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+    color: #fff;
+    height: 80px;
 }
 
 .logo-settings h3{
-    margin-top: 30px;
+    margin: 30px 0 0 20px;
+    color: #fff;
 }

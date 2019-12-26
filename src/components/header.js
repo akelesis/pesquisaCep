@@ -6,7 +6,6 @@ export default class Header extends Component{
         return(
             <header className="cep-header">
                 <div className="logo-settings">
-                    <img src={require('../imgs/logo.png')} alt="Logo"/>
                     <h3>PESQUISA DE ENDEREÇO</h3>
                 </div>
             </header>

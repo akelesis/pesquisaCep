@@ -55,11 +55,14 @@ export default class PesquisaCep extends Component{
                 <div className="pesquisa">
                     <div className="pesquisa-cep">
                         <label className="pesquisa-label">Insira o CEP: </label>
-                        <input type="text" id="cep" onChange={this.handleChange} value={this.state.cep} />
-                        <button className="botao-pesquisa" onClick={this.getCEP}>Pesquisar</button>
+                        <input type="text" className="cep" onChange={this.handleChange} value={this.state.cep} />
+                        <button className="botao-cep" onClick={this.getCEP}>Pesquisar</button>
+                    </div>
+                    <div className="texto-separador">
+                        <h3>OU</h3>
                     </div>
                     <div className="pesquisa-local">
-                        <button className="btn-pesquisa" onClick={this.getLocal}>Capturar Localização</button>
+                        <button className="btn-pesquisa" onClick={this.getLocal}>Capturar Localização <i className="fas fa-map-marker-alt"></i></button>
                     </div>
                 </div>
                     <hr />
