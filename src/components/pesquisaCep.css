@@ -57,3 +57,10 @@
     font-weight: bold;
     color: #3e3e3e;
 }
+
+.resultado{
+    margin-left: 20px;
+    font-size: 25px;
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+}
